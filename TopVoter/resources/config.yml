@@ -1,0 +1,20 @@
+Positions:
+    - world: hallo
+      x: -742
+      "y": 31
+      z: 589
+#API-Clé de votre serveur fournie par minecraftpocket-servers.com
+API-Key: "2Q3FhSnXVIW3hV7s1pc6sfI7ibgGPN2aiJ"
+#Amount des électeurs qui doivent être représentés (Max: 500)
+Amount: 10
+#Update intervalle de la requête au serveur en secondes
+Update-Interval: 180
+#Header de la particule de texte flottante
+Header: "§g§lTop 10 Voters"
+#Text for every row after the header
+Text: "§4§l+ §r§6{player} §e{votes}"
+#Vérifiez si le nom d’un électeur est valide
+#Les votes des joueurs nommés de manière invalide seront rejetés s’ils sont activés
+Check-Name: true
+#When défini sur true PocketVote fournira les meilleurs électeurs agrégés au lieu d’utiliser votre clé API
+Use-PocketVote: false

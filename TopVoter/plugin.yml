@@ -1,0 +1,10 @@
+---
+name: TopVoter
+version: 3.2.0
+api:
+- 3.0.0
+main: Tazz\TopVoter\TopVoter
+author: Tazz
+softdepend:
+- PocketVote
+...
